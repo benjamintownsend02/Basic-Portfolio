@@ -3,13 +3,6 @@ body{
     background-image: url(../images/spikes.png);
 }
 
-a{
-    color: #777777;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 75%;
-}
-
 .header {
     z-index: 100;
     position: fixed;
@@ -24,13 +17,19 @@ a{
     border-bottom: 3px solid #cccccc;
   }
 
+.headercontainer{
+    width: 960px;
+    position: relative;
+    margin: auto;
+}
+
 .titlename{
     float: left;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: left;
     height:auto;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
     white-space:nowrap;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -41,7 +40,14 @@ a{
     text-align: left;
     height:100%;
     white-space: nowrap;
-    margin-right: 5%;
+
+}
+
+.navlinks{
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 75%;
 }
 
 .main{
